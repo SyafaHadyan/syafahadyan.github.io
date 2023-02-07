@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Syafa Hadyan</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    <style> url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-        img {
-            margin-top: 20px;
-        }
+      .profile-picture {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
 
-        h1 {
-            margin-top: 20px;
-            text-align: center;
-        }
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+      }
 
-        p {
-            margin-top: 10px;
-            text-align: center;
-        }
+      .discord {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
 
-        .buttons {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-        }
+      .discord img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
 
-        .buttons img {
-            height: 40px;
-            margin-right: 10px;
-        }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .buttons button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px #ccc;
+      }
     </style>
-</head>
-<body>
-    <img src="Profile.jpg" alt="Profile" width="100" height="100">
+  </head>
+  <body>
+    <img class="profile-picture" src="Profile.jpg" alt="Profile">
     <h1>Syafa Hadyan</h1>
-    <p>Discord: Syafa#8883</p>
-    <div class="buttons">
-        <a href="https://github.com/SyafaHadyan"><img src="GitHub.png" alt="GitHub"></a>
-        <a href="https://twitter.com/hadyan_syafa"><img src="Twitter.png" alt="Twitter"></a>
-        <a href="mailto:syafahadyanrasendriya@gmail.com"><img src="Email.png" alt="Email"></a>
+    <div class="discord">
+      <img src="discord.png" alt="Discord">
+      <p>Syafa#8883</p>
     </div>
-</body>
-</html>
+    <div class="buttons">
+      <button>
+        <img src="github.png" alt="GitHub">
+      </button>
+      <button>
+        <img src="twitter.png" alt="Twitter">
+      </button>
+      <button>
+        <img src="email.png" alt="Email">
+      </button>
