@@ -19,28 +19,6 @@ p {
     text-align: center;
 }
 
-.github-stats {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.github-stats img {
-    width: 300px;
-}
-
-.most-used-langs {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.most-used-langs img {
-    width: 200px;
-}
-
 .buttons {
     display: flex;
     justify-content: center;
@@ -50,4 +28,9 @@ p {
 .buttons img {
     height: 40px;
     margin-right: 10px;
+}
+
+.github-stats, .top-langs {
+    width: 200px;
+    height: 60px;
 }
