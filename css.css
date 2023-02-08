@@ -28,3 +28,13 @@ p {
     height: 40px;
     margin-right: 10px;
 }
+
+.stats-images {
+    display: flex;
+    margin-top: 20px;
+}
+
+.stats-images img {
+    height: 200px;
+    margin-right: 10px;
+}
