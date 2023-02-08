@@ -14,21 +14,30 @@
             align-items: center;
         }
 
+        img {
+            margin-top: 20px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
         .stats-container {
             display: flex;
             justify-content: center;
             margin-top: 20px;
         }
 
-        .stats-container img {
-            height: auto;
-            width: 45%;
-            margin: 0 10px;
+        .stats-images {
+            display: flex;
+            margin-top: 20px;
         }
 
-        h1 {
-            margin-top: 20px;
-            text-align: center;
+        .stats-images img {
+            height: 200px;
+            margin-right: 10px;
         }
 
         p {
@@ -49,17 +58,24 @@
     </style>
 </head>
 <body>
-    <img src="Profile.jpg" alt="Profile" width="100" height="100">
+    <img src="profile.jpg" alt="profile picture">
     <h1>Syafa Hadyan</h1>
     <div class="stats-container">
-        <img src="https://github-readme-stats-amber-beta-62.vercel.app/api?username=SyafaHadyan&count_private=true&show_icons=true&theme=dark" alt="GitHub Stats">
-        <img src="https://github-readme-stats-amber-beta-62.vercel.app/api/top-langs/?username=SyafaHadyan&theme=dark&langs_count=10" alt="Top Langs">
+        <div class="stats-images">
+            <img src="stat1.png" alt="stat1">
+            <img src="stat2.png" alt="stat2">
+        </div>
     </div>
-    <p>Discord: Syafa#8883</p>
+    <p>Top languages</p>
+    <p>languages here</p>
+    <p>Discord: Syafa Hadyan#0001</p>
     <div class="buttons">
-        <a href="https://github.com/SyafaHadyan"><img src="GitHub.png" alt="GitHub"></a>
-        <a href="https://twitter.com/hadyan_syafa"><img src="Twitter.png" alt="Twitter"></a>
-        <a href="mailto:syafahadyanrasendriya@gmail.com"><img src="Email.png" alt="Email"></a>
+        <a href="#">
+            <img src="github.png" alt="GitHub">
+        </a>
+        <a href="#">
+            <img src="linkedin.png" alt="LinkedIn">
+        </a>
     </div>
 </body>
 </html>
