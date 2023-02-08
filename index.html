@@ -14,21 +14,32 @@
             align-items: center;
         }
 
-        .stats-container {
-            display: flex;
-            justify-content: center;
+        .profile-pic {
+            border-radius: 50%;
             margin-top: 20px;
-        }
-
-        .stats-container img {
-            height: auto;
-            width: 45%;
-            margin: 0 10px;
+            width: 150px;
+            height: 150px;
         }
 
         h1 {
             margin-top: 20px;
             text-align: center;
+        }
+
+        .stats {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .github-stats {
+            width: 500px;
+        }
+
+        .top-langs {
+            width: 500px;
+            margin-top: 20px;
         }
 
         p {
@@ -49,11 +60,11 @@
     </style>
 </head>
 <body>
-    <img src="Profile.jpg" alt="Profile" width="100" height="100">
+    <img class="profile-pic" src="Profile.jpg" alt="Profile">
     <h1>Syafa Hadyan</h1>
-    <div class="stats-container">
-        <img src="https://github-readme-stats-amber-beta-62.vercel.app/api?username=SyafaHadyan&count_private=true&show_icons=true&theme=dark" alt="GitHub Stats">
-        <img src="https://github-readme-stats-amber-beta-62.vercel.app/api/top-langs/?username=SyafaHadyan&theme=dark&langs_count=10" alt="Top Langs">
+    <div class="stats">
+        <img class="github-stats" src="https://github-readme-stats-amber-beta-62.vercel.app/api?username=SyafaHadyan&count_private=true&show_icons=true&theme=dark">
+        <img class="top-langs" src="https://github-readme-stats-amber-beta-62.vercel.app/api/top-langs/?username=SyafaHadyan&theme=dark&langs_count=10">
     </div>
     <p>Discord: Syafa#8883</p>
     <div class="buttons">
