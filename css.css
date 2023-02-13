@@ -4,10 +4,6 @@ body {
     align-items: center;
 }
 
-img[src="Profile.png"] {
-  border-radius: 50%;
-}
-
 h1 {
     margin-top: 20px;
     text-align: center;
