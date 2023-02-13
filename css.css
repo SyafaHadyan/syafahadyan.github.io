@@ -4,7 +4,7 @@ body {
     align-items: center;
 }
 
-img[src="Profile.jpg"] {
+img[src="Profile.png"] {
   border-radius: 50%;
 }
 
@@ -37,8 +37,4 @@ p {
 .stats-images img {
     height: 200px;
     margin-right: 10px;
-}
-.gambar{
-    border-radius: 200px;
-    
 }
