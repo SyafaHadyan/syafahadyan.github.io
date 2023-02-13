@@ -4,11 +4,9 @@ body {
     align-items: center;
 }
 
-img[src="Profile.jpg"] {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }  
+img[src="Profile.png"] {
+  border-radius: 50%;
+}
 
 h1 {
     margin-top: 20px;
