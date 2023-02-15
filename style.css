@@ -30,13 +30,13 @@ p {
   text-align: center;
 }
 
-.buttons {
+.links {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 
-.buttons img {
+.links img {
   height: 40px;
   margin-right: 10px;
 }
