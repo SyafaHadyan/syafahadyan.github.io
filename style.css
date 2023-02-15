@@ -6,6 +6,8 @@ body {
 }
 
 .profile {
+  width: 200;
+  height: 200;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
