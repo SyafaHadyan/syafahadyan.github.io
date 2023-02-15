@@ -18,7 +18,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.stats-container {
+.github-stats {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +27,7 @@ body {
   margin-bottom: 20px;
 }
 
-.stats-container img {
+.github-stats img {
   height: auto;
   width: 65%;
 }
