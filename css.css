@@ -1,7 +1,21 @@
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.stats-container img {
+    height: auto;
+    width: auto;
+    margin: 0 10px;
 }
 
 h1 {
@@ -22,15 +36,5 @@ p {
 
 .buttons img {
     height: 40px;
-    margin-right: 10px;
-}
-
-.stats-images {
-    display: flex;
-    margin-top: 20px;
-}
-
-.stats-images img {
-    height: 200px;
     margin-right: 10px;
 }
