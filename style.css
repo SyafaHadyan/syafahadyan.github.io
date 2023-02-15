@@ -5,6 +5,16 @@ body {
   align-items: center;
 }
 
+.profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.name {
+  margin-top: 20px;
+  text-align: center;
+}
+
 .stats-container {
   display: flex;
   flex-direction: column;
@@ -17,15 +27,6 @@ body {
 .stats-container img {
   height: auto;
   width: 65%;
-}
-
-.profile {
-  text-align: center;
-}
-
-.name {
-  margin-top: 20px;
-  text-align: center;
 }
 
 .links {
