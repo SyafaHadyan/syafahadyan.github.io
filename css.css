@@ -1,40 +1,39 @@
+
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .stats-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .stats-container img {
-    height: auto;
-    width: auto;
-    margin: 10px;
-  }
-  
-  h1 {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  p {
-    margin-top: 10px;
-    text-align: center;
-  }
-  
-  .buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  .buttons img {
-    height: 40px;
-    margin-right: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.stats img {
+  height: auto;
+  width: auto;
+  margin: 0 10px;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buttons img {
+  height: 40px;
+  margin-right: 10px;
+}
