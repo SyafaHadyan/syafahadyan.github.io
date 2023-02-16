@@ -23,7 +23,7 @@ body {
 .name {
   margin-top: 20px;
   margin-bottom: 20px;
-  text-shadow: 15px 15px 25px black;
+  text-shadow: 10px 10px 30px black;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
