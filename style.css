@@ -11,8 +11,8 @@ body {
 }
 
 .profile img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   align-items: center;
 }
 
@@ -37,15 +37,19 @@ body {
   height: auto;
   width: 65%;
   border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .links {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .links img {
   height: 40px;
   margin-right: 10px;
+  margin-left: 10px;
 }
