@@ -37,8 +37,8 @@ body {
   height: auto;
   width: 65%;
   border-radius: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .links {
@@ -49,7 +49,8 @@ body {
 }
 
 .links img {
-  height: 40px;
+  align-items: center;
+  height: 50px;
   margin-right: 10px;
   margin-left: 10px;
 }
