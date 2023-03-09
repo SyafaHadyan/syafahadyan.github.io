@@ -1,9 +1,8 @@
-
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .profile {
@@ -25,7 +24,7 @@ body {
   margin-bottom: 20px;
   text-shadow: 25px 5px 30px black;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .github-stats {
