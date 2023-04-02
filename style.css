@@ -1,4 +1,6 @@
 body {
+  text-decoration: none;
+  background-color: #282a36;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +24,7 @@ body {
 .name {
   margin-top: 20px;
   margin-bottom: 20px;
-  text-shadow: 25px 5px 30px black;
+  text-shadow: 30px 5px 30px white;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
