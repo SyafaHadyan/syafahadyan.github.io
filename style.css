@@ -65,6 +65,66 @@ body
   height: 200px;
   overflow-y: scroll;
 }
+.repo
+{
+  margin-top: 16px;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.repo-header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.repo-header a
+{
+  font-size: 20px;
+  font-weight: 600;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repo-language
+{
+  font-size: 14px;
+  font-weight: 600;
+  color: #586069;
+  background-color: #f1f8ff;
+  border-radius: 20px;
+  padding: 4px 8px;
+}
+
+.repo-description
+{
+  font-size: 14px;
+  color: #586069;
+  margin-bottom: 8px;
+}
+
+.repo-stats
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  color: #586069;
+}
+
+.repo-stats span
+{
+  margin-right: 16px;
+}
+
+.repo-stats img
+{
+  height: 20px;
+  margin-right: 4px;
+}
 .links
 {
   justify-content: center;
