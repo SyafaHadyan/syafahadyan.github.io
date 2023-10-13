@@ -62,6 +62,8 @@ body
   margin-left: 20px;
   text-align: center;
   color: white;
+  height: 200px;
+  overflow-y: scroll;
 }
 .links
 {
