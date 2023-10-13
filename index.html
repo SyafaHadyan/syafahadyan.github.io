@@ -7,7 +7,6 @@
     <link rel="icon" type="image/png" href="Icons/favicon-32x32.png" />
     <link rel="icon" type="image/png" href="Icons/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap"
       rel="stylesheet"
@@ -35,21 +34,9 @@
         alt="GitHub Trophy"
       />
     </div>
-    <div class="latest-commit"></div>
-
-    <script>
-      fetch('https://api.github.com/users/SyafaHadyan/events')
-        .then(response => response.json())
-        .then(data => {
-          const latestCommit = data.find(event => event.type === 'PushEvent');
-          const commitMessage = latestCommit.payload.commits[0].message;
-          const commitDate = new Date(latestCommit.created_at).toLocaleDateString();
-          const commitElement = document.createElement('div');
-          commitElement.innerHTML = `Latest commit: ${commitMessage} on ${commitDate}`;
-          document.querySelector('.latest-commit').appendChild(commitElement);
-        })
-        .catch(error => console.error(error));
-    </script>
+    <div class="latest-commit">
+      <div class="commit-container"></div>
+    </div>
     <div class="links">
       <a
         href="https://github.com/SyafaHadyan"
@@ -67,5 +54,37 @@
       </a>
     </div>
     <script src="index.js"></script>
+    <script>
+      fetch('https://api.github.com/users/SyafaHadyan/repos')
+        .then(response => response.json())
+        .then(data => {
+          const repos = data.map(repo => {
+            const repoElement = document.createElement('div');
+            repoElement.innerHTML = `<a href="${repo.html_url}" target="_blank">${repo.name}</a>`;
+            return repoElement;
+          });
+          const repoContainer = document.createElement('div');
+          repoContainer.classList.add('repo-container');
+          repos.forEach(repo => repoContainer.appendChild(repo));
+          document.body.appendChild(repoContainer);
+        })
+        .catch(error => console.error(error));
+
+      fetch('https://api.github.com/users/SyafaHadyan/events')
+        .then(response => response.json())
+        .then(data => {
+          const pushEvents = data.filter(event => event.type === 'PushEvent');
+          const latestCommits = pushEvents.slice(0, 10).map(event => {
+            const commitMessage = event.payload.commits[0].message;
+            const commitDate = new Date(event.created_at).toLocaleDateString();
+            const commitElement = document.createElement('div');
+            commitElement.innerHTML = `Latest commit: ${commitMessage} on ${commitDate}`;
+            return commitElement;
+          });
+          const commitContainer = document.querySelector('.commit-container');
+          latestCommits.forEach(commit => commitContainer.appendChild(commit));
+        })
+        .catch(error => console.error(error));
+    </script>
   </body>
 </html>
