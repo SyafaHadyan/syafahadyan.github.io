@@ -35,6 +35,19 @@
         alt="GitHub Trophy"
       />
     </div>
+    <div class="latest-commit">
+      fetch('https://api.github.com/users/SyafaHadyan/events')
+      .then(response => response.json())
+      .then(data => {
+        const latestCommit = data.find(event => event.type === 'PushEvent');
+        const commitMessage = latestCommit.payload.commits[0].message;
+        const commitDate = new Date(latestCommit.created_at).toLocaleDateString();
+        const commitElement = document.createElement('div');
+        commitElement.innerHTML = `Latest commit: ${commitMessage} on ${commitDate}`;
+        document.body.appendChild(commitElement);
+      })
+      .catch(error => console.error(error));
+    </div>
     <div class="links">
       <a
         href="https://github.com/SyafaHadyan"
