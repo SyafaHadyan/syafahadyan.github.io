@@ -30,7 +30,6 @@ body
   margin-bottom: 20px;
   text-shadow: 22px 4px 30px white;
   text-align: center;
-  font-family: 'JetBrains Mono', monospace;
 }
 
 .github-stats
@@ -62,7 +61,6 @@ body
   margin-right: 20px;
   margin-left: 20px;
   text-align: center;
-  font-family: 'JetBrains Mono', monospace;
   color: white;
 }
 .links
