@@ -1,10 +1,14 @@
+@font-face {
+  font-family: 'Jet Brains Mono';
+  src: url('/Fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+
 body {
   text-decoration: none;
   background-color: #282a36;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "JetBrainsMono", sans-serif;
 }
 
 .profile {
