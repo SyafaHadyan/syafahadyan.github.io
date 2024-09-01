@@ -1,9 +1,11 @@
-@font-face {
+@font-face
+{
   font-family: 'Jet Brains Mono';
   src: url('/Fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
 }
 
-Body {
+Body
+{
   text-decoration: none;
   background-color: #282a36;
   display: flex;
@@ -12,21 +14,24 @@ Body {
   font-family: "Jet Brains Mono", sans-serif;
 }
 
-.Profile {
+.Profile
+{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
-.Profile img {
+.Profile img
+{
   width: 200px;
   height: 200px;
   align-items: center;
   justify-content: center;
 }
 
-.Name {
+.Name
+{
   margin-top: 20px;
   margin-bottom: 20px;
   text-shadow: 22px 4px 30px white;
@@ -34,7 +39,8 @@ Body {
   font-family: "Jet Brains Mono", sans-serif;
 }
 
-.GitHub-Stats {
+.GitHub-Stats
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +51,8 @@ Body {
   margin-left: 20px;
 }
 
-.GitHub-Stats img {
+.GitHub-Stats img
+{
   height: auto;
   width: auto;
   min-width: 70%;
@@ -54,7 +61,8 @@ Body {
   margin-bottom: 5px;
 }
 
-.Links {
+.Links
+{
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -62,7 +70,8 @@ Body {
   margin-left: 20px;
 }
 
-.Links img {
+.Links img
+{
   align-items: center;
   height: 40px;
   width: 40px;
