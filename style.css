@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Jet Brains Mono';
   src: url('/Fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+}
 
 body {
   text-decoration: none;
@@ -8,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "JetBrainsMono", sans-serif;
+  font-family: "Jet Brains Mono", sans-serif;
 }
 
 .profile {
@@ -30,7 +31,7 @@ body {
   margin-bottom: 20px;
   text-shadow: 22px 4px 30px white;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Jet Brains Mono", sans-serif;
 }
 
 .github-stats {
