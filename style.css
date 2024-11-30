@@ -40,7 +40,7 @@ Body
   font-family: "Jet Brains Mono", sans-serif;
 }
 
-.GitHub-Stats
+.GitHub-Stats, .WakaTime
 {
   text-align: center;
   text-shadow: 0px 0px 35px white;
@@ -54,7 +54,7 @@ Body
   margin-left: 20px;
 }
 
-.GitHub-Stats img
+.GitHub-Stats img, .WakaTime img
 {
   height: auto;
   width: auto;
