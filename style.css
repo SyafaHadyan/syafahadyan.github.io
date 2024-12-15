@@ -1,87 +1,86 @@
 @font-face
 {
-  font-family: 'Jet Brains Mono';
-  src: url('/Fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-family: "Jet Brains Mono";
+    src: url("/Fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype");
 }
-
 Body
 {
-  text-decoration: none;
-  background-color: #282a36;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-shadow: 00px 0px 50px white;
-  font-family: "Jet Brains Mono", sans-serif;
+    text-decoration: none;
+    background-color: #282a36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 00px 0px 50px white;
+    font-family: "Jet Brains Mono", sans-serif;
 }
-
-.Profile
+.prorile
 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-
-.Profile img
+.profile img
 {
-  width: 200px;
-  height: 200px;
-  align-items: center;
-  justify-content: center;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
 }
-
-.Name
+.name
 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-shadow: 00px 0px 50px white;
-  text-align: center;
-  font-family: "Jet Brains Mono", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 00px 0px 50px white;
+    text-align: center;
 }
-
-.GitHub-Stats, .WakaTime
+.github-stats, .wakatime
 {
-  text-align: center;
-  text-shadow: 0px 0px 35px white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 35px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-
-.GitHub-Stats img, .WakaTime img
+.github-stats img, .wakatime img
 {
-  height: auto;
-  width: auto;
-  min-width: 70%;
-  max-width: 85%;
-  margin-top: 5px;
-  margin-bottom: 5px;
+    height: auto;
+    width: auto;
+    min-width: 70%;
+    max-width: 85%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-
-.Links
+.links
 {
-  justify-content: center;
-  text-align: center;
-  text-shadow: 0px 0px 35 white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0px 0px 35 white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-
-.Links img
+.links img
 {
-  align-items: center;
-  height: 40px;
-  width: 40px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+    transition: all 0.5s ease;
+    align-items: center;
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.links img:hover
+{
+    transition: all 0.5s ease;
+    margin-top: 0px;
+    height: 50px;
+    width: auto;
 }
