@@ -1,7 +1,7 @@
 @font-face
 {
     font-family: "Jet Brains Mono";
-    src: url("/Fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype");
+    src: url("assets/fonts/jetbrainsmono/JetBrainsMono-Regular.ttf") format("truetype");
 }
 Body
 {
@@ -61,7 +61,7 @@ Body
 {
     justify-content: center;
     text-align: center;
-    text-shadow: 0px 0px 35 white;
+    text-shadow: 0px 0px 35px white;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -69,7 +69,7 @@ Body
 }
 .links img
 {
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
     align-items: center;
     height: 40px;
     width: auto;
@@ -80,7 +80,7 @@ Body
 }
 .links img:hover
 {
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
     margin-top: 0px;
     height: 50px;
     width: auto;
