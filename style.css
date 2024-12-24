@@ -11,7 +11,7 @@ Body
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-shadow: 00px 0px 50px white;
+    text-shadow: 0px 0px 50px white;
     font-family: "Jet Brains Mono", sans-serif;
 }
 
@@ -25,8 +25,8 @@ Body
 
 .profile img
 {
-    width: 200px;
-    height: 200px;
+    height: 20vw;
+    max-height: 200px;
     align-items: center;
     justify-content: center;
     border-radius: 100%;
@@ -36,14 +36,12 @@ Body
 {
     margin-top: 20px;
     margin-bottom: 20px;
-    text-shadow: 00px 0px 50px white;
     text-align: center;
 }
 
 .github-stats, .wakatime
 {
     text-align: center;
-    text-shadow: 0px 0px 35px white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,10 +54,8 @@ Body
 
 .github-stats img, .wakatime img
 {
-    height: auto;
-    width: auto;
-    min-width: 70%;
-    max-width: 85%;
+    width: 70vw;
+    max-width: 65%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -68,7 +64,6 @@ Body
 {
     justify-content: center;
     text-align: center;
-    text-shadow: 0px 0px 35px white;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -79,7 +74,8 @@ Body
 {
     transition: all 0.25s ease;
     align-items: center;
-    height: 40px;
+    height: 5vw;
+    max-height: 30px;
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -90,7 +86,5 @@ Body
 .links img:hover
 {
     transition: all 0.25s ease;
-    margin-top: 0px;
-    height: 50px;
-    width: auto;
+    transform: scale(1.2);
 }
