@@ -55,7 +55,7 @@ Body
 .github-stats img, .wakatime img
 {
     width: 70vw;
-    max-width: 65%;
+    max-width: 75%;
     margin-top: 5px;
     margin-bottom: 5px;
 }
