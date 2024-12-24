@@ -3,6 +3,7 @@
     font-family: "Jet Brains Mono";
     src: url("assets/fonts/jetbrainsmono/JetBrainsMono-Regular.ttf") format("truetype");
 }
+
 Body
 {
     text-decoration: none;
@@ -13,6 +14,7 @@ Body
     text-shadow: 00px 0px 50px white;
     font-family: "Jet Brains Mono", sans-serif;
 }
+
 .prorile
 {
     margin-top: 20px;
@@ -20,6 +22,7 @@ Body
     margin-right: 20px;
     margin-left: 20px;
 }
+
 .profile img
 {
     width: 200px;
@@ -28,6 +31,7 @@ Body
     justify-content: center;
     border-radius: 100%;
 }
+
 .name
 {
     margin-top: 20px;
@@ -35,6 +39,7 @@ Body
     text-shadow: 00px 0px 50px white;
     text-align: center;
 }
+
 .github-stats, .wakatime
 {
     text-align: center;
@@ -48,6 +53,7 @@ Body
     margin-right: 20px;
     margin-left: 20px;
 }
+
 .github-stats img, .wakatime img
 {
     height: auto;
@@ -57,6 +63,7 @@ Body
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 .links
 {
     justify-content: center;
@@ -67,6 +74,7 @@ Body
     margin-right: 20px;
     margin-left: 20px;
 }
+
 .links img
 {
     transition: all 0.25s ease;
@@ -78,6 +86,7 @@ Body
     margin-right: 10px;
     margin-left: 10px;
 }
+
 .links img:hover
 {
     transition: all 0.25s ease;
